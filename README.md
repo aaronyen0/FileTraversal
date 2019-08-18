@@ -1,5 +1,5 @@
 # FileTraversal
-Traversal a given path. Show the path structure.
+Traversal from a given path. Output the path structure.
 
 ## Demo
 
