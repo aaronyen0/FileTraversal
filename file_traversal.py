@@ -200,12 +200,14 @@ def test_simple_traversal():
     obj = FileTraversal()
     obj.simple_traversal(path, 0)
 
+
 def test_detail_traversal():
     path = r'.'
     obj = FileTraversal()
     obj.execute_detail_traversal(path)
 
-def test_contraint_detail_traversal():
+
+def test_condition_detail_traversal():
     path = r'.'
     
     file_pattern1 = '.+\.py'
@@ -220,5 +222,7 @@ def test_contraint_detail_traversal():
 
 
 if __name__ == "__main__":
-    test_contraint_detail_traversal()
+    test_condition_detail_traversal()
+    #test_simple_traversal()
+    #test_detail_traversal()
 
